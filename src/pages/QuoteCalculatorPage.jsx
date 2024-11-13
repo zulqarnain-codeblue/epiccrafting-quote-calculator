@@ -13,7 +13,8 @@ import UploadField from "../components/UploadField";
 function QuoteCalculatorPage() {
   const [currentObj, setCurrentObj] = useState(Quote);
   const [currentParam, setCurrentParam] = useState(null);
-  const [paramType, setParamType] = useState("signageType");
+  const [paramType, setparamType] = useState("signageType");
+  const [url, setUrl] = useState(null);
   const [parentObj, setParentObj] = useState(null);
   const [loading, setLoading] = useState(false);
   const [cloudinaryImages, setCloudinaryImages] = useState([]);
@@ -60,6 +61,7 @@ function QuoteCalculatorPage() {
         signage: "",
         signType: "",
       });
+      dispatch(setSelectedValues({ ...userSelectedValues, mainType: value }));
     }
     if (key == "signage") {
       setUserSelectedValues({
@@ -67,6 +69,7 @@ function QuoteCalculatorPage() {
         signage: value,
         signType: "",
       });
+      dispatch(setSelectedValues({ ...userSelectedValues, mainType: value }));
     }
     if (key == "signType") {
       setUserSelectedValues({
@@ -75,6 +78,7 @@ function QuoteCalculatorPage() {
         type: "",
         formType: "",
       });
+      dispatch(setSelectedValues({ ...userSelectedValues, mainType: value }));
     }
     if (key == "type") {
       setUserSelectedValues({
@@ -82,9 +86,11 @@ function QuoteCalculatorPage() {
         type: value,
         formType: "",
       });
+      dispatch(setSelectedValues({ ...userSelectedValues, mainType: value }));
     }
     if (key == "formType") {
       setUserSelectedValues({ ...userSelectedValues, formType: value });
+      dispatch(setSelectedValues({ ...userSelectedValues, mainType: value }));
     }
 
     setCurrentParam(value);
@@ -106,7 +112,7 @@ function QuoteCalculatorPage() {
     const params = getQueryParams();
     console.log("params", params);
     console.log("before currentObj", currentObj);
-    if(!params.size){
+    if (!params.size) {
       setCurrentObj(Quote);
       // navigate(`/`);
     }
@@ -115,23 +121,24 @@ function QuoteCalculatorPage() {
         Quote.filter((item) => item.param == params.get("signageType"))[0]
           ?.types
       );
-      setParamType("signage");
+      setparamType("signage");
     }
     if (params.size && params.get("signage")) {
       console.log('params.get("signage")', params.get("signage"));
       setCurrentObj(
-        Quote.filter((item) => item.param == params.get("signageType"))[0]
-        ?.types.filter((item) => item.param == params.get("signage"))[0]
+        Quote.filter(
+          (item) => item.param == params.get("signageType")
+        )[0]?.types.filter((item) => item.param == params.get("signage"))[0]
           ?.types
       );
-      setParamType("type");
+      setparamType("type");
     }
 
     if (params.size && params.get("type")) {
       setCurrentObj(
         currentObj.filter((item) => item.param == params.get("type"))[0]?.types
       );
-      setParamType("selectedType");
+      setparamType("selectedType");
       // addQueryParam('size', true);
     }
     // if(params.size && params.get("formType")){
@@ -147,7 +154,12 @@ function QuoteCalculatorPage() {
   return (
     <section className="hero bg-gray-50 min-w-1/2 mx-auto py-16 px-20 rounded-2xl">
       <div>
-        <h1 className="text-3xl font-bold">Select your sign type</h1>
+        <h1 className="text-3xl font-bold">
+          Select your{" "}
+          <span className="uppercase text-blue-500">
+            {currentParam || paramType}
+          </span>
+        </h1>
 
         <div className="flex justify-center items-center gap-6 mt-10 flex-wrap">
           {currentObj ? (
