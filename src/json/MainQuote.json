@@ -1,0 +1,2979 @@
+[
+    {
+      "name": "INDOOR",
+      "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/il_fullxfull.5082435963_j2do.jpg?v=1721639215",
+      "param": "indoor",
+      "types": [
+        {
+          "name": "CHANNEL LETTER",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_e81a60b6-85b0-40f3-b755-10199d81c38a.png?v=1721372338",
+          "param": "channel-letter",
+          "types": [
+            {
+              "name": "Illuminated",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_e81a60b6-85b0-40f3-b755-10199d81c38a.png?v=1721372338",
+              "param": "illuminated",
+              "types": [
+                {
+                  "name": "Face lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/FACE-LIT.png?v=1725440650",
+                  "param": "face-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                    "EdgeType": ["Trim", "Trimless"]
+                  }
+                },
+                {
+                  "name": "Face & Reverse Lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/FACE-REVERSE-LIT.png?v=1725440798",
+                  "param": "face-and-reverse-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 6.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+  
+                    "EdgeType": ["Trim", "Trimless"]
+                  }
+                },
+                {
+                  "name": "Side Lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/SIDE-LIT.png?v=1725441706",
+                  "param": "side-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 6.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                },
+                {
+                  "name": "Face & Side Lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/FACE-SUDE-LIT.png?v=1725441953",
+                  "param": "face-and-side-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 6.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                },
+                {
+                  "name": "Halo lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_e81a60b6-85b0-40f3-b755-10199d81c38a.png?v=1721372338",
+                  "param": "halo-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue" : 6,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "details": "",
+                      "color": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                    "Finish": ["Metallic", "Painted"]
+                  }
+                },
+                {
+                  "name": "Perforated",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Perforated.png?v=1725442051",
+                  "param": "perforated",
+                  "types": [],
+                  "factorValue" : 7,
+                  "othersForm": true,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                    "EdgeType": ["Trim", "Trimless"]
+                  }
+                },
+                {
+                  "name": "Marquee",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Marquee.png?v=1725442155",
+                  "param": "marquee",
+                  "types": [],
+                  "othersForm": true,
+                  "factorValue" : 7,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                },
+                {
+                  "name": "Open Face Neon",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Open-face-neon.png?v=1725442299",
+                  "param": "open-face-neon",
+                  "types": [],
+                  "othersForm": true,
+                  "factorValue" : 7.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Non Illuminated",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_1.png?v=1721571972",
+              "param": "nonilluminated",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": [],
+                  "color": ""
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {
+                "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                "Materials": {
+                  "Metal": ["Aluminum", "Stainless Steel"]
+                },
+                "Finish": ["Metallic", "Painted"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIGHTBOX",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/IDEAL_LIGHTING_SOLUTION_7.png?v=1724757852",
+          "param": "lightbox",
+          "types": [],
+          "othersForm": false,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {}
+        },
+        {
+          "name": "LED NEON SIGN",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/PIX.png?v=1725428114",
+          "param": "led-neon-sign",
+          "types": [
+            {
+              "name": "CUT TO SHAPE",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/6_87c23b5e-0d54-43a1-851d-1e9f847ce986.png?v=1721554200",
+              "param": "cut-to-shape",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": []
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {}
+            },
+            {
+              "name": "CUT TO LETTER",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/7_8ba70282-50fb-439e-8731-9c7cb523f48b.png?v=1721554199",
+              "param": "cut-to-letter",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": []
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {}
+            },
+            {
+              "name": "CUT TO RECTANGLE",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/PIX_1.png?v=1725514046",
+              "param": "cut-to-rectangle",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": []
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {}
+            }
+          ]
+        },
+        {
+          "name": "BLADE SIGN",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/8_5788f3ae-765b-4ddb-9ac0-56126933c0b6.png?v=1721372109",
+          "param": "blade-sign",
+          "types": [],
+          "othersForm": false,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "color": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {
+            "Materials": {
+              "Metal": ["Aluminum", "Stainless Steel"]
+            },
+            "Returns": ["Yes", "No"],
+            "Shape": ["Metallic", "Painted"]
+          }
+        },
+        {
+          "name": "FLAT CUT LETTERS",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/7_6011367e-77c9-42be-83ed-d99994da9bc9.png?v=1721372109",
+          "param": "flat-cut-letters",
+          "types": [],
+          "othersForm": false,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "color": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {
+            "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+            "Materials": {
+              "Metal": ["Aluminum", "Stainless Steel", "Acrylic Material"]
+            }
+          }
+        },
+        {
+          "name": "OTHERS",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/others.png?v=1725435127",
+          "param": "other",
+          "types": [],
+          "othersForm": true,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {}
+        }
+      ]
+    },
+    {
+      "name": "OUTDOOR",
+      "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/asxdasxd32.png?v=1721639218",
+      "param": "outdoor",
+      "types": [
+        {
+          "name": "CHANNEL LETTER",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_e81a60b6-85b0-40f3-b755-10199d81c38a.png?v=1721372338",
+          "param": "channel-letter",
+          "types": [
+            {
+              "name": "Illuminated",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_e81a60b6-85b0-40f3-b755-10199d81c38a.png?v=1721372338",
+              "param": "illuminated",
+              "types": [
+                {
+                  "name": "Face lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/FACE-LIT.png?v=1725440650",
+                  "param": "face-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                    "EdgeType": ["Trim", "Trimless"]
+                  }
+                },
+                {
+                  "name": "Face & Reverse Lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/FACE-REVERSE-LIT.png?v=1725440798",
+                  "param": "face-and-reverse-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 6.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+  
+                    "EdgeType": ["Trim", "Trimless"]
+                  }
+                },
+                {
+                  "name": "Side Lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/SIDE-LIT.png?v=1725441706",
+                  "param": "side-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 6.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                },
+                {
+                  "name": "Face & Side Lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/FACE-SUDE-LIT.png?v=1725441953",
+                  "param": "face-and-side-lit",
+                  "types": [],
+                  "othersForm": false,
+                  "factorValue": 6.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                },
+                {
+                  "name": "Halo lit",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_e81a60b6-85b0-40f3-b755-10199d81c38a.png?v=1721372338",
+                  "param": "halo-lit",
+                  "types": [],
+                  "factorValue" : 6,
+                  "othersForm": false,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "details": "",
+                      "color": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                    "Finish": ["Metallic", "Painted"]
+                  }
+                },
+                {
+                  "name": "Perforated",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Perforated.png?v=1725442051",
+                  "param": "perforated",
+                  "types": [],
+                  "factorValue" : 7,
+                  "othersForm": true,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                    "EdgeType": ["Trim", "Trimless"]
+                  }
+                },
+                {
+                  "name": "Marquee",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Marquee.png?v=1725442155",
+                  "param": "marquee",
+                  "types": [],
+                  "othersForm": true,
+                  "factorValue" : 7,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                },
+                {
+                  "name": "Open Face Neon",
+                  "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Open-face-neon.png?v=1725442299",
+                  "param": "open-face-neon",
+                  "types": [],
+                  "othersForm": true,
+                  "factorValue" : 7.5,
+                  "artworkOrTextForm": false,
+                  "formInputs": {
+                    "artwork": {
+                      "height": "",
+                      "width": "",
+                      "depth": "",
+                      "details": "",
+                      "files": []
+                    },
+                    "text": {
+                      "color": "",
+                      "depth": "",
+                      "numberOfLines": "1"
+                    }
+                  },
+                  "size": {
+                    "artwork": [
+                      {
+                        "name": "Enter Sign Height (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "height",
+                        "required": true
+                      },
+                      {
+                        "name": "Enter Sign Width (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "width",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth (inches):",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "More Details:",
+                        "field": "textarea",
+                        "type": "text",
+                        "fieldname": "details",
+                        "required": false
+                      },
+                      {
+                        "name": "",
+                        "field": "file",
+                        "type": "",
+                        "fieldname": "files",
+                        "required": true
+                      }
+                    ],
+                    "text": [
+                      {
+                        "name": "Face Color: \n (Pantone Color):",
+                        "field": "color",
+                        "type": "text",
+                        "fieldname": "color",
+                        "required": true
+                      },
+                      {
+                        "name": "Return Depth",
+                        "field": "input",
+                        "type": "number",
+                        "fieldname": "depth",
+                        "required": true
+                      },
+                      {
+                        "name": "Number of lines:",
+                        "field": "select",
+                        "numberOfLines": 3,
+                        "type": "select",
+                        "fieldname": "numberOfLines",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "other": {
+                    "MountingType": ["Flush Mount", "Raceway", "Backers Board"]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Non Illuminated",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Quote_Calculator_1.png?v=1721571972",
+              "param": "nonilluminated",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": [],
+                  "color": ""
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {
+                "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+                "Materials": {
+                  "Metal": ["Aluminum", "Stainless Steel"]
+                },
+                "Finish": ["Metallic", "Painted"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIGHTBOX",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/IDEAL_LIGHTING_SOLUTION_7.png?v=1724757852",
+          "param": "lightbox",
+          "types": [],
+          "othersForm": false,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {}
+        },
+        {
+          "name": "LED NEON SIGN",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/PIX.png?v=1725428114",
+          "param": "led-neon-sign",
+          "types": [
+            {
+              "name": "CUT TO SHAPE",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/6_87c23b5e-0d54-43a1-851d-1e9f847ce986.png?v=1721554200",
+              "param": "cut-to-shape",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": []
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {}
+            },
+            {
+              "name": "CUT TO LETTER",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/7_8ba70282-50fb-439e-8731-9c7cb523f48b.png?v=1721554199",
+              "param": "cut-to-letter",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": []
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {}
+            },
+            {
+              "name": "CUT TO RECTANGLE",
+              "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/PIX_1.png?v=1725514046",
+              "param": "cut-to-rectangle",
+              "types": [],
+              "othersForm": false,
+              "artworkOrTextForm": false,
+              "formInputs": {
+                "artwork": {
+                  "height": "",
+                  "width": "",
+                  "details": "",
+                  "files": []
+                },
+                "text": {
+                  "color": "",
+                  "depth": "",
+                  "numberOfLines": "1"
+                }
+              },
+              "size": {
+                "artwork": [
+                  {
+                    "name": "Enter Sign Height (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "height",
+                    "required": true
+                  },
+                  {
+                    "name": "Enter Sign Width (inches):",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "width",
+                    "required": true
+                  },
+                  {
+                    "name": "More Details:",
+                    "field": "textarea",
+                    "type": "",
+                    "fieldname": "details",
+                    "required": false
+                  },
+                  {
+                    "name": "",
+                    "field": "file",
+                    "type": "",
+                    "fieldname": "files",
+                    "required": true
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "Face Color: \n (Pantone Color):",
+                    "field": "color",
+                    "type": "text",
+                    "fieldname": "color",
+                    "required": true
+                  },
+                  {
+                    "name": "Return Depth",
+                    "field": "input",
+                    "type": "number",
+                    "fieldname": "depth",
+                    "required": true
+                  },
+                  {
+                    "name": "Number of lines:",
+                    "field": "select",
+                    "numberOfLines": 3,
+                    "type": "select",
+                    "fieldname": "numberOfLines",
+                    "required": true
+                  }
+                ]
+              },
+              "other": {}
+            }
+          ]
+        },
+        {
+          "name": "BLADE SIGN",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/8_5788f3ae-765b-4ddb-9ac0-56126933c0b6.png?v=1721372109",
+          "param": "blade-sign",
+          "types": [],
+          "othersForm": false,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "color": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {
+            "Materials": {
+              "Metal": ["Aluminum", "Stainless Steel"]
+            },
+            "Returns": ["Yes", "No"],
+            "Shape": ["Metallic", "Painted"]
+          }
+        },
+        {
+          "name": "FLAT CUT LETTERS",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/7_6011367e-77c9-42be-83ed-d99994da9bc9.png?v=1721372109",
+          "param": "flat-cut-letters",
+          "types": [],
+          "othersForm": false,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "color": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {
+            "MountingType": ["Flush Mount", "Raceway", "Backers Board"],
+            "Materials": {
+              "Metal": ["Aluminum", "Stainless Steel", "Acrylic Material"]
+            }
+          }
+        },
+        {
+          "name": "PYLON SIGN",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/Pylon_Sign_1.png?v=1725863508",
+          "param": "pylon-sign",
+          "types": [],
+          "othersForm": true,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {}
+        },
+        {
+          "name": "MONUMENT SIGN",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/monument_sign.png?v=1725863509",
+          "param": "monument-sign",
+          "types": [],
+          "othersForm": true,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {}
+        },
+        {
+          "name": "OTHERS",
+          "image": "https://cdn.shopify.com/s/files/1/0610/0012/2547/files/others.png?v=1725435127",
+          "param": "other",
+          "types": [],
+          "othersForm": true,
+          "artworkOrTextForm": false,
+          "formInputs": {
+            "artwork": {
+              "height": "",
+              "width": "",
+              "details": "",
+              "files": []
+            },
+            "text": {
+              "color": "",
+              "depth": "",
+              "numberOfLines": "1"
+            }
+          },
+          "size": {
+            "artwork": [
+              {
+                "name": "Enter Sign Height (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "height",
+                "required": true
+              },
+              {
+                "name": "Enter Sign Width (inches):",
+                "field": "input",
+                "type": "number",
+                "fieldname": "width",
+                "required": true
+              },
+              {
+                "name": "More Details:",
+                "field": "textarea",
+                "type": "",
+                "fieldname": "details",
+                "required": false
+              },
+              {
+                "name": "",
+                "field": "file",
+                "type": "",
+                "fieldname": "files",
+                "required": true
+              }
+            ],
+            "text": [
+              {
+                "name": "Face Color: \n (Pantone Color):",
+                "field": "color",
+                "type": "text",
+                "fieldname": "color",
+                "required": true
+              },
+              {
+                "name": "Return Depth",
+                "field": "input",
+                "type": "number",
+                "fieldname": "depth",
+                "required": true
+              },
+              {
+                "name": "Number of lines:",
+                "field": "select",
+                "numberOfLines": 3,
+                "type": "select",
+                "fieldname": "numberOfLines",
+                "required": true
+              }
+            ]
+          },
+          "other": {}
+        }
+      ]
+    }
+  ]
+  
